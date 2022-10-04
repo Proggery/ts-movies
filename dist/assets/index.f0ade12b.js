@@ -212,8 +212,8 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     }
   }
 
-  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
-    .MuiOutlinedInput-notchedOutline {
+  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused,
+  .MuiOutlinedInput-notchedOutline {
     border-color: ${yo.primaryColor};
   }
   .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {

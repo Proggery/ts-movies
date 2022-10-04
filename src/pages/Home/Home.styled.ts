@@ -30,8 +30,8 @@ export const SearchContainer = styled.div`
     }
   }
 
-  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
-    .MuiOutlinedInput-notchedOutline {
+  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused,
+  .MuiOutlinedInput-notchedOutline {
     border-color: ${colors.primaryColor};
   }
   .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
