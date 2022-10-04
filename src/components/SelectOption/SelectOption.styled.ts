@@ -1,4 +1,3 @@
-import { colors } from "./../../config/baseStyles";
 import styled from "styled-components";
 
 
