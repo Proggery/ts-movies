@@ -1,6 +1,7 @@
 import { colors, device } from "./../../config/baseStyles";
 import styled from "styled-components";
 
+
 export const SearchContainer = styled.div`
   margin: 1rem auto 5rem;
   max-width: 460px;
@@ -8,25 +9,28 @@ export const SearchContainer = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  label {
-    color: white;
-  }
-  input {
-    width: 250px;
-    color: white;
-  }
-  fieldset {
-    border-color: white;
-  }
-  
-  MuiInputBase-root,
-  MuiOutlinedInput-root,
-  MuiInputBase-colorPrimary,
-  MuiInputBase-formControl:hover {
-    fieldset {
-      border-color: white;
+  .inputElement{
+
+    label {
+      color: white;
+    }
+    div{
+      input {
+        width: 250px;
+        color: white;
+      }
+      fieldset {
+        border-color: white;
+      }
+      &:hover{
+        fieldset {
+          border-color: white;
+        }
+      }
     }
   }
+  
+
   .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
     .MuiOutlinedInput-notchedOutline {
     border-color: ${colors.primaryColor};

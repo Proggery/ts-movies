@@ -48,6 +48,7 @@ const SearchInput: FC<IProps> = ({
       id="outlined-basic"
       label="Movie search"
       variant="outlined"
+      className="inputElement"
     />
   );
 };
