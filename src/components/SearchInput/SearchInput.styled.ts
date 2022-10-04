@@ -1,5 +1,4 @@
-import { colors } from './../../config/baseStyles';
-import { TextField } from "@mui/material";
+import {TextField} from "@mui/material";
 import styled from "styled-components";
 
 export const InputContainer = styled(TextField)`
