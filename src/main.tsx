@@ -5,8 +5,7 @@ import"./main.css"
 
 ReactDOM.render(
   <>
-    {/* <App /> */}
-    <h1>szevasz</h1>
+    <App />
   </>,
   document.getElementById("root")
 );
