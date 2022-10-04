@@ -11,13 +11,18 @@ export const SearchContainer = styled.div`
   label {
     color: white;
   }
-  input{
+  input {
     width: 250px;
+    color: white;
   }
   fieldset {
     border-color: white;
   }
-  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  
+  MuiInputBase-root,
+  MuiOutlinedInput-root,
+  MuiInputBase-colorPrimary,
+  MuiInputBase-formControl:hover {
     fieldset {
       border-color: white;
     }

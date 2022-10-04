@@ -12,7 +12,7 @@ interface IProps {
 const CardItem: FC<IProps> = ({ poster, title, directed_by }) => {
   return (
     <Container>
-      {/* <Card.Img variant="top" src={poster} /> */}
+      <Card.Img variant="top" src={poster} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>Directed by: {directed_by}</Card.Text>
