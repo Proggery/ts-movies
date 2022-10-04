@@ -10,9 +10,9 @@
 }
 
   .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
-    padding-left: 3px;
+    padding-left: 3px !important;
   }
 
   .css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root:after {
-    border-color: #9AAE00;
+    border-color: #9AAE00 !important;
   }
