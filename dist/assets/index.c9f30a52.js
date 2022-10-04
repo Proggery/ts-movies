@@ -212,13 +212,13 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     }
   }
 
-  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused,
-  .MuiOutlinedInput-notchedOutline {
+  /* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
     border-color: ${yo.primaryColor};
   }
-  .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
     color: ${yo.primaryColor};
-  }
+  } */
 `,P2=xn.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);

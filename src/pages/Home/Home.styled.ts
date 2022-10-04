@@ -30,13 +30,13 @@ export const SearchContainer = styled.div`
     }
   }
 
-  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused,
-  .MuiOutlinedInput-notchedOutline {
+  /* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
     border-color: ${colors.primaryColor};
   }
-  .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
     color: ${colors.primaryColor};
-  }
+  } */
 `;
 
 export const CardContainer = styled.div`

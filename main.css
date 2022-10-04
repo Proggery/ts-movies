@@ -13,6 +13,6 @@
     padding-left: 3px;
   }
 
-  .css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root:after {
-    border-color: #9AAE00;
+  .css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root::after {
+    border-color: red !important;
   }
