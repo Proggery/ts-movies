@@ -194,9 +194,9 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     label {
       color: white;
 
-      &:focus {
+      /* &:focus {
         color: ${yo.primaryColor};
-      }
+      } */
     }
     div {
       input {
@@ -206,19 +206,17 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
       fieldset {
         border-color: white;
       }
-      &:hover {
-        fieldset {
-          border-color: white;
-        }
+      &:focus {
+        border-color: red;
       }
     }
   }
 
-  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
     .MuiOutlinedInput-notchedOutline {
     border-color: ${yo.primaryColor};
   }
-  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
     color: ${yo.primaryColor};
   }
 `,P2=xn.div`

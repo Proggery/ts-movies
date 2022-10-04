@@ -12,9 +12,9 @@ export const SearchContainer = styled.div`
     label {
       color: white;
 
-      &:focus {
+      /* &:focus {
         color: ${colors.primaryColor};
-      }
+      } */
     }
     div {
       input {
@@ -24,19 +24,17 @@ export const SearchContainer = styled.div`
       fieldset {
         border-color: white;
       }
-      &:hover {
-        fieldset {
-          border-color: white;
-        }
+      &:focus {
+        border-color: red;
       }
     }
   }
 
-  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
     .MuiOutlinedInput-notchedOutline {
     border-color: ${colors.primaryColor};
   }
-  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  .MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
     color: ${colors.primaryColor};
   }
 `;
