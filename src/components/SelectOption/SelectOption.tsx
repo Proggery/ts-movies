@@ -13,6 +13,13 @@ interface IProps {
 }
 
 const SelectOption: FC<IProps> = ({ selectValue, setSelectValue }) => {
+  useEffect(() => {
+    const selectUL: HTMLUListElement | null = document.querySelector(
+      ".css-6hp17o-MuiList-root-MuiMenu-list"
+    );
+    selectUL?.classList.add("selectUL");
+  }, []);
+
   const handleChange = (e: SelectChangeEvent) => {
     setSelectValue(e.target.value);
   };

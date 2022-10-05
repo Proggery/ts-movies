@@ -42,6 +42,9 @@ export const SearchContainer = styled.div`
   .css-177ic5c {
     border-radius: 0;
   }
+  .selectUL {
+    background-color: ${colors.backgroundColor};
+  }
 `;
 
 export const CardContainer = styled.div`
