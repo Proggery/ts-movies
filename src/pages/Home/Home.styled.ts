@@ -44,7 +44,7 @@ export const SearchContainer = styled.div`
   }
   .css-r8u8y9,
   .css-177ic5c {
-    background: ${colors.backgroundColor};
+    background-color: ${colors.backgroundColor};
   }
 `;
 

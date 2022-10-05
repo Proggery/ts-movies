@@ -225,7 +225,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   }
   .css-r8u8y9,
   .css-177ic5c {
-    background: ${yo.backgroundColor};
+    background-color: ${yo.backgroundColor};
   }
 `,P2=xn.div`
   display: grid;
