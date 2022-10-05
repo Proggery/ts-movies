@@ -10,6 +10,9 @@ export const SearchContainer = styled.div`
   align-items: center;
 
   .inputElement {
+    label{
+      color: white;
+    }
     div {
       input {
         width: 250px;

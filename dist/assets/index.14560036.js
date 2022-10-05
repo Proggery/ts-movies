@@ -191,6 +191,9 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   align-items: center;
 
   .inputElement {
+    label{
+      color: white;
+    }
     div {
       input {
         width: 250px;
