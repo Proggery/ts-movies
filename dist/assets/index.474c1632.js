@@ -223,7 +223,8 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   .css-177ic5c {
     border-radius: 0;
   }
-  .css-r8u8y9 {
+  .css-r8u8y9,
+  .css-177ic5c {
     background: ${yo.backgroundColor};
   }
 `,P2=xn.div`

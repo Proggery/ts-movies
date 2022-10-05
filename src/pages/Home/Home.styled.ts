@@ -1,6 +1,7 @@
 import { colors, device } from "./../../config/baseStyles";
 import styled from "styled-components";
 
+
 export const SearchContainer = styled.div`
   margin: 1rem auto 5rem;
   max-width: 460px;
@@ -41,7 +42,8 @@ export const SearchContainer = styled.div`
   .css-177ic5c {
     border-radius: 0;
   }
-  .css-r8u8y9 {
+  .css-r8u8y9,
+  .css-177ic5c {
     background: ${colors.backgroundColor};
   }
 `;
