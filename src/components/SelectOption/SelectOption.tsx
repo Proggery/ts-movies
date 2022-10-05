@@ -22,6 +22,9 @@ const SelectOption: FC<IProps> = ({ selectValue, setSelectValue }) => {
   const objectKeys: string[] = Object.keys(option);
   const objectValues: string[] = Object.values(option);
 
+  const teszt = "teszt";
+
+
   return (
     <SelectContainer>
       <FormControl variant="standard" sx={{ minWidth: 120 }}>

@@ -239,7 +239,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   @media ${_i.sm} {
     grid-template-columns: repeat(1, 1fr);
   }
-`,R2=()=>{Xg("Movies");const[e,t]=h.exports.useState([]),[n,r]=h.exports.useState([]),[o,i]=h.exports.useState("title"),[s,l]=h.exports.useState(!0),a=async()=>{const f=await fetch("https://www.fakerestapi.com/datasets/api/v1/movie-details-dataset.json"),{data:v}=await f.json(),m=[];for(let S=0;S<v.length;S++)m[S]=v[S];t(m)};return h.exports.useEffect(()=>{a()},[]),Fe(em,{children:[Fe(xf,{children:[A(Xl,{children:A(b2,{title:"Search My Favorite Movie"})}),A(Xl,{children:Fe(k2,{children:[A(w2,{...{allData:e,setFilterArr:r,setIsData:l,selectValue:o}}),A(C2,{selectValue:o,setSelectValue:i})]})})]}),A(xf,{children:A(Xl,{children:s?A(P2,{children:n.length!==0?n.map((f,v)=>A(wf,{...f},v)):e.map((f,v)=>A(wf,{...f},v))}):A(v1,{})})})]})};/**
+`,R2=()=>{Xg("Movies");const[e,t]=h.exports.useState([]),[n,r]=h.exports.useState([]),[o,i]=h.exports.useState("title"),[s,l]=h.exports.useState(!0),a=async()=>{const f=await fetch("https://www.fakerestapi.com/datasets/api/v1/movie-details-dataset.json"),{data:v}=await f.json(),m=[];for(let S=0;S<60;S++)m[S]=v[S];t(m)};return h.exports.useEffect(()=>{a()},[]),Fe(em,{children:[Fe(xf,{children:[A(Xl,{children:A(b2,{title:"Search My Favorite Movie"})}),A(Xl,{children:Fe(k2,{children:[A(w2,{...{allData:e,setFilterArr:r,setIsData:l,selectValue:o}}),A(C2,{selectValue:o,setSelectValue:i})]})})]}),A(xf,{children:A(Xl,{children:s?A(P2,{children:n.length!==0?n.map((f,v)=>A(wf,{...f},v)):e.map((f,v)=>A(wf,{...f},v))}):A(v1,{})})})]})};/**
  * @remix-run/router v1.0.1
  *
  * Copyright (c) Remix Software Inc.

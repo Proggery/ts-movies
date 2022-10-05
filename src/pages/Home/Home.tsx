@@ -23,7 +23,7 @@ const Home: FC = () => {
     const { data } = await res.json();
     const allData = [];
 
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 0; i < 60; i++) {
       allData[i] = data[i];
     }
     setAllData(allData);
