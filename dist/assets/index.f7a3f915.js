@@ -211,6 +211,9 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
       }
     }
   }
+  .css-1cayd89::after {
+    border-color: red !important;
+  }
 
   /* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
     .MuiOutlinedInput-notchedOutline {
