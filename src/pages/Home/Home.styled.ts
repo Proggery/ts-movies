@@ -26,9 +26,15 @@ export const SearchContainer = styled.div`
   .css-u9osun.Mui-focused {
     color: ${colors.primaryColor};
   }
+
+  .MuiInputBase-root:hover,
+  .MuiOutlinedInput-root.MuiInputBase-root:hover,
+  .MuiInputBase-colorPrimary.MuiInputBase-root:hover,
+  .MuiInputBase-formControl:hover,
   .css-1v4ccyo:hover {
     border-color: white;
   }
+
   .css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline,
   .css-1cayd89::after {
     border-color: ${colors.primaryColor};
