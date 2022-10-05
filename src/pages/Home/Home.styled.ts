@@ -1,6 +1,7 @@
 import { colors, device } from "./../../config/baseStyles";
 import styled from "styled-components";
 
+
 export const SearchContainer = styled.div`
   margin: 1rem auto 5rem;
   max-width: 460px;
@@ -26,6 +27,9 @@ export const SearchContainer = styled.div`
       }
       &:focus {
         border-color: red;
+      }
+      .css-1cayd89::after {
+        border-color: red !important;
       }
     }
   }
