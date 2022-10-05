@@ -29,8 +29,13 @@ export const SearchContainer = styled.div`
       }
     }
   }
+  .css-u9osun.Mui-focused {
+    color: ${colors.primaryColor};
+  }
+  .css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline,
+  .css-1v4ccyo,
   .css-1cayd89::after {
-    border-color: red !important;
+    border-color: ${colors.primaryColor};
   }
 
   /* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
