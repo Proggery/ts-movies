@@ -178,7 +178,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   svg {
     color: white;
   }
-`,C2=({selectValue:e,setSelectValue:t})=>{h.exports.useEffect(()=>{const s=document.querySelector(".css-r8u8y9");s==null||s.classList.add("selectUL")},[]);const n=s=>{t(s.target.value)},r={title:"Title",directed:"Directed by"},o=Object.keys(r),i=Object.values(r);return A(S2,{children:A(E0,{variant:"standard",sx:{minWidth:120},children:A(N0,{labelId:"demo-simple-select-standard-label",id:"demo-simple-select-standard",value:e,onChange:n,children:o.map((s,l)=>A(Nk,{className:"option",value:s,children:i[l]},l))})})})},E2=xn.h1`
+`,C2=({selectValue:e,setSelectValue:t})=>{const n=s=>{t(s.target.value)},r={title:"Title",directed:"Directed by"},o=Object.keys(r),i=Object.values(r);return A(S2,{children:A(E0,{variant:"standard",sx:{minWidth:120},children:A(N0,{labelId:"demo-simple-select-standard-label",id:"demo-simple-select-standard",value:e,onChange:n,children:o.map((s,l)=>A(Nk,{className:"option",value:s,children:i[l]},l))})})})},E2=xn.h1`
   color: ${yo.primaryColor};
   padding: 3rem 0;
   display: inline-flex;

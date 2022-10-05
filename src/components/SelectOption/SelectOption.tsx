@@ -1,7 +1,11 @@
 import { SelectContainer } from "./SelectOption.styled";
-import { FormControl, MenuItem, Select, SelectChangeEvent } from "@mui/material";
+import {
+  FormControl,
+  MenuItem,
+  Select,
+  SelectChangeEvent,
+} from "@mui/material";
 import { Dispatch, FC, SetStateAction, useEffect } from "react";
-
 
 interface IProps {
   selectValue: string;
@@ -9,12 +13,6 @@ interface IProps {
 }
 
 const SelectOption: FC<IProps> = ({ selectValue, setSelectValue }) => {
-  useEffect(() => {
-    const selectUL: HTMLUListElement | null =
-      document.querySelector(".css-r8u8y9");
-    selectUL?.classList.add("selectUL");
-  }, []);
-
   const handleChange = (e: SelectChangeEvent) => {
     setSelectValue(e.target.value);
   };
