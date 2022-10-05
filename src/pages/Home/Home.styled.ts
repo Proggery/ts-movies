@@ -9,13 +9,6 @@ export const SearchContainer = styled.div`
   align-items: center;
 
   .inputElement {
-    label {
-      color: white;
-
-      /* &:focus {
-        color: ${colors.primaryColor};
-      } */
-    }
     div {
       input {
         width: 250px;
@@ -29,22 +22,17 @@ export const SearchContainer = styled.div`
       }
     }
   }
+
   .css-u9osun.Mui-focused {
     color: ${colors.primaryColor};
   }
+  .css-1v4ccyo:hover {
+    border-color: white;
+  }
   .css-1v4ccyo.Mui-focused .MuiOutlinedInput-notchedOutline,
-  .css-1v4ccyo,
   .css-1cayd89::after {
     border-color: ${colors.primaryColor};
   }
-
-  /* .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
-    .MuiOutlinedInput-notchedOutline {
-    border-color: ${colors.primaryColor};
-  }
-  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
-    color: ${colors.primaryColor};
-  } */
 `;
 
 export const CardContainer = styled.div`
