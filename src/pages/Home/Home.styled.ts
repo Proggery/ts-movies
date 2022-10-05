@@ -1,6 +1,7 @@
 import { colors, device } from "./../../config/baseStyles";
 import styled from "styled-components";
 
+
 export const SearchContainer = styled.div`
   margin: 1rem auto 5rem;
   max-width: 460px;
@@ -27,11 +28,7 @@ export const SearchContainer = styled.div`
     color: ${colors.primaryColor};
   }
 
-  .MuiInputBase-root:hover,
-  .MuiOutlinedInput-root.MuiInputBase-root:hover,
-  .MuiInputBase-colorPrimary.MuiInputBase-root:hover,
-  .MuiInputBase-formControl:hover,
-  .css-1v4ccyo:hover {
+  .css-1v4ccyo:hover .MuiOutlinedInput-notchedOutline {
     border-color: white;
   }
 
